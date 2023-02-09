@@ -16,7 +16,7 @@ if (userChoice !== "R" && userChoice !== "P" && userChoice !== "S") {
 computerChoice = Math.random();
   if (computerChoice < 0.34) {
     computerChoice = "R";
-  } else if (computerChoice <= 0.33) {
+  } else if ((computerChoice >=0.35) && (computerChoice <= 0.66)) {
     computerChoice = "P";
   } else {
     computerChoice = "S";
